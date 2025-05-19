@@ -50,7 +50,7 @@ body {
 body::after {
   content: '';
   inset: 0;
-  opacity: 0.3;
+  opacity: 0.1;
   position: absolute;
   background-image: url(../assets/img/bg.svg);
 }
@@ -58,6 +58,7 @@ body::after {
 
 #app {
   padding-inline: 7.625rem;
+  padding-top: 5rem;
 }
 
 
@@ -72,6 +73,14 @@ header {
   }
 }
 
+main {
+  margin-top: 5.5rem;
+  padding-inline:  .875rem;
+}
+
+li {
+  list-style-image: url(../assets/icons/question.svg);
+}
 
 
 
